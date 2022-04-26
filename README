@@ -1,0 +1,46 @@
+Study on the effect of face masks on Forensic Speaker Recognition
+
+Authors: Georgiana Bogdanel, Nadia Belghazi Mohamed, Hilario Gómez Moreno 
+and Sergio Lafuente Arroyo
+
+Universidad de Alcalá, Escuela Politécnica Superior, Departamento de Teoría de la
+Señal y Comunicaciones, Campus Universitario. 28871 Alcalá de Henares, Madrid,
+España.
+
+Abstract
+========
+The COVID-19 pandemic has led to a dramatic increase in
+the use of face masks. Face masks can affect both the acoustic proper-
+ties of the signal and the speech patterns and have undesirable effects
+on automatic speech recognition systems as well as on forensic speaker
+recognition and identification systems. This is because the masks intro-
+duce both intrinsic and extrinsic variability into the audio signals. More-
+over, their filtering effect varies depending on the type of mask used. In
+this paper we explore the impact of the use of different masks on the
+performance of an automatic speaker recognition system based on Mel
+Frequency Ceptral Coefficients to characterise the voices and on Support
+Vector Machines to perform the classification task. The results show that
+masks slightly affect the classification results. The effects vary depending
+on the type of mask used, but not as expected, as the results with FPP2
+masks are better than those with surgical masks. An increase in speech
+intensity has been found with the FPP2 mask, which is related to the
+increased vocal effort made to counteract the effects of hearing loss
+
+
+Table of Contents
+=================
+- No Mask Audios (NM)
+- Surgical Mask Audios (MS)
+- FFP2 Mask Audios (MFFP2)
+- EXCEL (corpus.xlsx)
+- SVM automatic speaker recognition script (ARS_SVM.py)
+
+
+Contact Information
+===================
+georgiana.bogdanel@edu.uah.es
+nadia.belghazi@edu.uah.es
+hilario.gomez@uah.es
+sergio.lafuente@uah.es
+
+
