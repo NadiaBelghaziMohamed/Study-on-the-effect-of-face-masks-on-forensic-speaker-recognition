@@ -4,8 +4,10 @@ Authors: Georgiana Bogdanel, Nadia Belghazi Mohamed, Hilario Gómez Moreno
 and Sergio Lafuente Arroyo
 
 Universidad de Alcalá, Escuela Politécnica Superior, Departamento de Teoría de la
-Señal y Comunicaciones, Campus Universitario. 28871 Alcalá de Henares, Madrid,
-España.
+Señal y Comunicaciones, 28871 Alcalá de Henares, Madrid, España.
+
+Universidad de Alcalá, Instituto Universitario de Investigación en Ciencias Policiales, 
+Facultad de Derecho, 28801 Alcalá de Henares, Madrid, España.
 
 Abstract
 ========
@@ -24,7 +26,7 @@ masks slightly affect the classification results. The effects vary depending
 on the type of mask used, but not as expected, as the results with FPP2
 masks are better than those with surgical masks. An increase in speech
 intensity has been found with the FPP2 mask, which is related to the
-increased vocal effort made to counteract the effects of hearing loss
+increased vocal effort made to counteract the effects of hearing loss.
 
 
 Table of Contents
