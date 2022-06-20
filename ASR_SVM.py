@@ -179,7 +179,7 @@ file = 'prueba2.svm'
 dump_svmlight_file(X, y, file, zero_based = False)
 # # Paso 04: Modelamiento y validación
 
-SupportVectorClassModel = SVC(C = 1, gamma=0.0078125, probability=True)
+SupportVectorClassModel = SVC(C = 100, gamma=0.045, probability=True)
 SupportVectorClassModel.fit(X_train,y_train)
 
 filename = 'finalized_model.sav'
