@@ -73,7 +73,7 @@ data_dir=('.')
 ##--Creamos una funcion para extraer las mediciones del audio.
 def extract_features(files): 
     # Establece el nombre de la ruta a donde están los archivos de audio en mi computadora
-    file_name = os.path.join(os.path.abspath(data_dir)+'//corpus//'+str(files.id))
+    file_name = os.path.join(os.path.abspath(data_dir)+'//SpeechCorpus//'+str(files.id))
     # Carga el archivo de audio como una serie de tiempo de coma flotante y asigna la frecuencia de muestreo predeterminada
     # Sample rate is set to 22050 by default
     # la serie de tiempo esta almacenada en [X]
@@ -135,14 +135,14 @@ print(X.shape)
 print(y.shape)
 
 ##--de acuerdo al df, partimos nuestros arrays en train, validación y test
-X_train = X[:38]
-y_train = y[:38]
+X_train = X[:90]
+y_train = y[:90]
 
 #X_test = X[36:72] 
 #y_test = y[36:72]
 
-X_test = X[38:]
-y_test = y[38:]
+X_test = X[90:180]
+y_test = y[90:180]
 
 #X = X[:75]
 #y = y[:75]
